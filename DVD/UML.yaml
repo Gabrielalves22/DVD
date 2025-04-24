@@ -1,0 +1,32 @@
++----------------+
+|     Amigo      |
++----------------+
+| - id: int      |
+| - nome: str    |
+| - telefone: str|
+| - email: str   |
++----------------+
+
++----------------+
+|      DVD       |
++----------------+
+| - id: int      |
+| - titulo: str  |
+| - sinopse: str |
+| - diretor: str |
+| - ator: str    |
+| - genero: str  |
+| - faixa: str   |
++----------------+
+
++----------------------+
+|     Emprestimo       |
++----------------------+
+| - id: int            |
+| - data_emprestimo: dt|
+| - data_devolucao: dt |
+| - observacoes: str   |
++----------------------+
+| - amigo: Amigo       |
+| - dvd: DVD           |
++----------------------+
